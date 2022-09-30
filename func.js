@@ -9,7 +9,7 @@ function sum(n) {
 function myFunction() {
   var n = document.getElementById("num").value;
   var r= sum(n);
-  if (r>=10){
+  while(r>=10){
      r=sum(r);}
   alert("Lucky number is "+r);
 
